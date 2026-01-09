@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Marcela Mobati | Portfolio</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; line-height: 1.5; }
+    header { display: grid; gap: 8px; margin-bottom: 28px; }
+    .tag { color: #555; }
+    .card { border: 1px solid #e5e5e5; border-radius: 14px; padding: 16px; margin: 14px 0; }
+    a { text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { margin-top: 40px; color: #666; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Marcela Mobati</h1>
+    <div class="tag">MPH Candidate (UC Berkeley) | Public Health • Health Equity • Community-Engaged Innovation</div>
+    <div>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a> ·
+      <a href="mailto:youremail@example.com">Email</a> ·
+      <a href="resume.pdf">Resume (PDF)</a>
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>About</h2>
+    <p>
+      I build community-centered public health initiatives that connect lived experience, policy, and innovation.
+      My work focuses on health equity, workforce pathways, and storytelling for systems change.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Projects</h2>
+
+    <h3>Bridging Smiles to Systems</h3>
+    <p>Docu-interview + advocacy initiative addressing oral health equity and workforce gaps in rural California.</p>
+
+    <h3>Indigenous Language Interpreter & Health Navigator Pipeline</h3>
+    <p>Community-aligned certification pathway to strengthen language access and culturally responsive navigation.</p>
+
+    <h3>H.E.A.L. (Latinx student collaboration initiative)</h3>
+    <p>Intergenerational healing + mentorship + cross-collaboration to advance belonging and health equity on campus.</p>
+  </section>
+
+  <footer>
+    <p>© <span id="y"></span> Marcela Mobati</p>
+    <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
